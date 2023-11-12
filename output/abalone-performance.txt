@@ -1,0 +1,60 @@
+---------Base-DT---------
+Confusion Matrix:
+[[  0  51 218]
+ [  0 219  58]
+ [  0  63 227]]
+Classification Report:
+F: {'precision': 1.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 269}
+I: {'precision': 0.6576576576576577, 'recall': 0.7906137184115524, 'f1-score': 0.718032786885246, 'support': 277}
+M: {'precision': 0.45129224652087474, 'recall': 0.7827586206896552, 'f1-score': 0.5725094577553594, 'support': 290}
+accuracy: 0.5334928229665071
+macro avg: {'precision': 0.7029833013928442, 'recall': 0.5244574463670691, 'f1-score': 0.43018074821353514, 'support': 836}
+weighted avg: {'precision': 0.6962271802179723, 'recall': 0.5334928229665071, 'f1-score': 0.4365105558807026, 'support': 836}
+Accuracy: 0.5334928229665071
+
+---------Top-DT---------
+Confusion Matrix:
+[[ 71  27 171]
+ [ 25 201  51]
+ [ 58  46 186]]
+Classification Report:
+F: {'precision': 0.461038961038961, 'recall': 0.26394052044609667, 'f1-score': 0.3356973995271868, 'support': 269}
+I: {'precision': 0.7335766423357665, 'recall': 0.7256317689530686, 'f1-score': 0.7295825771324863, 'support': 277}
+M: {'precision': 0.45588235294117646, 'recall': 0.6413793103448275, 'f1-score': 0.5329512893982807, 'support': 290}
+accuracy: 0.5478468899521531
+macro avg: {'precision': 0.5501659854386346, 'recall': 0.5436505332479976, 'f1-score': 0.5327437553526512, 'support': 836}
+weighted avg: {'precision': 0.5495527425830491, 'recall': 0.5478468899521531, 'f1-score': 0.5346325936172409, 'support': 836}
+Accuracy: 0.5478468899521531
+
+---------Base-MLP---------
+Confusion Matrix:
+[[ 48  36 185]
+ [  5 206  66]
+ [ 54  52 184]]
+Classification Report:
+F: {'precision': 0.4485981308411215, 'recall': 0.17843866171003717, 'f1-score': 0.25531914893617025, 'support': 269}
+I: {'precision': 0.7006802721088435, 'recall': 0.7436823104693141, 'f1-score': 0.7215411558669002, 'support': 277}
+M: {'precision': 0.42298850574712643, 'recall': 0.6344827586206897, 'f1-score': 0.5075862068965517, 'support': 290}
+accuracy: 0.5239234449760766
+macro avg: {'precision': 0.5240889695656971, 'recall': 0.5188679102666803, 'f1-score': 0.494815503899874, 'support': 836}
+weighted avg: {'precision': 0.5232392335371747, 'recall': 0.5239234449760766, 'f1-score': 0.4973059225346425, 'support': 836}
+Accuracy: 0.5239234449760766
+
+---------Top-MLP---------
+Confusion Matrix:
+[[149  39  81]
+ [ 32 221  24]
+ [150  59  81]]
+Classification Report:
+F: {'precision': 0.4501510574018127, 'recall': 0.5539033457249071, 'f1-score': 0.49666666666666665, 'support': 269}
+I: {'precision': 0.6927899686520376, 'recall': 0.7978339350180506, 'f1-score': 0.7416107382550335, 'support': 277}
+M: {'precision': 0.43548387096774194, 'recall': 0.2793103448275862, 'f1-score': 0.34033613445378147, 'support': 290}
+accuracy: 0.5394736842105263
+macro avg: {'precision': 0.5261416323405307, 'recall': 0.543682541856848, 'f1-score': 0.5262045131251606, 'support': 836}
+weighted avg: {'precision': 0.525459064998023, 'recall': 0.5394736842105263, 'f1-score': 0.5235968741884859, 'support': 836}
+Accuracy: 0.5394736842105263
+
+Base-DT Average Accuracy: 0.5334928229665071, Variance: 0.0
+Top-DT Average Accuracy: 0.5476076555023923, Variance: 2.2893248780935798e-07
+Base-MLP Average Accuracy: 0.5239234449760766, Variance: 0.0
+Top-MLP Average Accuracy: 0.5394736842105263, Variance: 0.0
